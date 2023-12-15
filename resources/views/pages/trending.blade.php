@@ -77,7 +77,6 @@
 
         h1 {
             font-size: 60px;
-            color: white
         }
 
         .bg-gray-100 {
@@ -435,9 +434,10 @@
         <a href="{{ route('trending') }}">TRENDING</a>
     </header>
     <div class='title-container'>
-        <h1>Hello {{$name}} !</h1>
+        <h1>Trending</h1>
+        <h3>In tendenza: {{$games}} {{$books}}</h3>
+        <h3>{{$cinema}} {{$nomi}}</h3>
     </div>
-
 </body>
 
 </html>

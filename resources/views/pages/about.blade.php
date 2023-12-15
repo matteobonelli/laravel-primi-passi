@@ -77,7 +77,6 @@
 
         h1 {
             font-size: 60px;
-            color: white
         }
 
         .bg-gray-100 {
@@ -434,10 +433,11 @@
         <a href="{{ route('about') }}">ABOUT</a>
         <a href="{{ route('trending') }}">TRENDING</a>
     </header>
-    <div class='title-container'>
-        <h1>Hello {{$name}} !</h1>
-    </div>
 
+    <div class='title-container'>
+        <h1>About</h1>
+        <h3>Sono {{$name}} {{$surname}} !</h3>
+    </div>
 </body>
 
 </html>
